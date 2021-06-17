@@ -13,7 +13,11 @@ const ListOfMovies = () => {
   return (
     <div>
       <h1 data-cy='list-of-movies'>List of Movies</h1>
-      <li>{movies}</li>
+      <div>
+        {movies.map((movie, index) => (
+          <li key={index}>{movie.title}</li>
+        ))}
+      </div>
     </div>
   );
 };
