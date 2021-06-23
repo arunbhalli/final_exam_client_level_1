@@ -1,0 +1,2121 @@
+{
+  "type": "page",
+  "pageType": "category",
+  "sectionId": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+  "title": "TV-serier online - Streama bra serier på nätet el ladda ned",
+  "description": "Viaplay erbjuder serier på nätet för hela familjen. Streama bra TV-serier online i hög kvalitet eller ladda ned till tablet eller mobil!",
+  "styles": [
+      "category"
+  ],
+  "_links": {
+      "curies": [
+          {
+              "name": "viaplay",
+              "href": "http://docs.viaplay.tv/rel/{rel}",
+              "templated": true
+          }
+      ],
+      "self": {
+          "href": "https://content.viaplay.se/pc-se/serier/samtliga"
+      },
+      "viaplay:root": {
+          "id": "root",
+          "title": "Start",
+          "href": "https://content.viaplay.se/pc-se"
+      },
+      "viaplay:editorial": {
+          "id": "editorial",
+          "href": "https://content.viaplay.se/pc-se/editorial"
+      },
+      "viaplay:socket": {
+          "id": "socket",
+          "href": "https://socket.viaplay.se/"
+      },
+      "viaplay:socket2": {
+          "id": "socket",
+          "href": "https://socket2.viaplay.se/"
+      },
+      "viaplay:search": {
+          "title": "Sök",
+          "href": "https://content.viaplay.se/pc-se/search{?query}",
+          "templated": true
+      },
+      "viaplay:autocomplete": {
+          "title": "autocomplete",
+          "href": "https://content.viaplay.se/pc-se/autocomplete{?query}",
+          "templated": true
+      },
+      "viaplay:byGuid": {
+          "title": "byGuid",
+          "href": "https://content.viaplay.se/pc-se/byguid/{guid}{?returnFirstEpisode,seasonId,tveProgram}",
+          "templated": true
+      },
+      "viaplay:searchSuggestions": {
+          "title": "byGuids",
+          "href": "https://content.viaplay.se/pc-se/search-suggestions/{guids}",
+          "templated": true
+      },
+      "viaplay:validateSession": {
+          "id": "validateSession",
+          "href": "https://login.viaplay.se/api/validateSession/v1{?session}",
+          "templated": true
+      },
+      "viaplay:translations": {
+          "id": "translations",
+          "href": "https://cms-service.viaplay.com/translations/pc",
+          "templated": false
+      },
+      "viaplay:technotifier": {
+          "id": "technotifier",
+          "href": "https://viaplay.mtg-api.com/tech-notifications/v1/viaplay/sv-se/pc"
+      },
+      "viaplay:sections": [
+          {
+              "id": "35bb8a90-d40e-11e2-8b8b-0800200c9a66",
+              "title": "Serier",
+              "href": "https://content.viaplay.se/pc-se/serier",
+              "type": "vod",
+              "name": "series",
+              "active": true
+          },
+          {
+              "id": "2037b330-d411-11e2-8b8b-0800200c9a66",
+              "title": "Filmer",
+              "href": "https://content.viaplay.se/pc-se/film",
+              "type": "vod",
+              "name": "movie"
+          },
+          {
+              "id": "8e5febf0-d4e0-11e2-8b8b-0800200c9a66",
+              "title": "Sport",
+              "href": "https://content.viaplay.se/pc-se/sport",
+              "type": "sportPerDay",
+              "name": "sport"
+          },
+          {
+              "id": "1a6a2ec0-d4e2-11e2-8b8b-0800200c9a66",
+              "title": "Barn",
+              "href": "https://content.viaplay.se/pc-se/barn",
+              "type": "children",
+              "name": "kids"
+          },
+          {
+              "id": "85561ec0-d4e1-11e2-8b8b-0800200c9a66",
+              "title": "Hyr & köp",
+              "href": "https://content.viaplay.se/pc-se/store",
+              "type": "vod",
+              "name": "rental"
+          },
+          {
+              "id": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d",
+              "title": "Prova Viaplay",
+              "href": "https://content.viaplay.se/pc-se/package",
+              "type": "editorial",
+              "name": "b35d0a33-ec9d-4e4c-9846-92addb9ec00d"
+          }
+      ],
+      "viaplay:geolocation": {
+          "href": "https://viaplay.mtg-api.com/geolocation/viaplay/portability{?ip,country}"
+      },
+      "viaplay:retrieveUserInformation": {
+          "id": "retrieveUserInformation",
+          "href": "https://viaplay.mtg-api.com/user-information/{brand}/users/{userId}",
+          "method": "GET",
+          "templated": true
+      },
+      "viaplay:localizationLanguages": {
+          "id": "localizationLanguages",
+          "href": "https://viaplay.mtg-api.com/localization/languages/se",
+          "method": "GET"
+      },
+      "viaplay:localizationCountry": {
+          "id": "localizationCountry",
+          "href": "https://viaplay.mtg-api.com/localization/countries/{countryCode}",
+          "method": "GET",
+          "templated": true
+      },
+      "viaplay:userJourneyGetJourney": {
+          "id": "userJourneyGetJourney",
+          "href": "https://viaplay.mtg-api.com/user-journey/user/{userId}/profile/{profileId}/journey/{journeyId}",
+          "method": "GET",
+          "templated": true
+      },
+      "viaplay:login": {
+          "title": "Login",
+          "href": "https://login.viaplay.se/api/login/v1?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga{&username,password,persistent,forward}",
+          "templated": true
+      },
+      "viaplay:facebookLogin": {
+          "title": "Facebook Login",
+          "href": "https://login.viaplay.se/api/facebook/login?deviceKey=pc-se&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga{&code,token,persistent}",
+          "templated": true
+      },
+      "viaplay:tokenLogin": {
+          "href": "https://login.viaplay.se/api/tokenLogin?deviceKey=pc-se{&accessToken,refreshToken,persistent,returnurl}",
+          "method": "GET",
+          "templated": true
+      },
+      "viaplay:tokenRefresh": {
+          "href": "https://login.viaplay.se/api/tokenRefresh/{userId}?deviceKey=pc-se",
+          "method": "POST",
+          "templated": true
+      },
+      "viaplay:setParentalControl": {
+          "id": "setParentalControl",
+          "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/parental-control",
+          "method": "POST",
+          "templated": true
+      },
+      "viaplay:userPwdUpdate": {
+          "id": "userPwdUpdate",
+          "href": "https://viaplay.mtg-api.com/identity/{brand}/users/{userId}/password",
+          "method": "PUT",
+          "templated": true
+      },
+      "viaplay:userPwdLoginRequest": {
+          "id": "userPwdLoginRequest",
+          "href": "https://viaplay.mtg-api.com/identity/{brand}/auth/pwd/sessions",
+          "method": "POST",
+          "templated": true
+      },
+      "viaplay:passwordToken": {
+          "id": "createPasswordToken",
+          "href": "https://viaplay.mtg-api.com/identity/viaplay/emails/{email}/user/password-token",
+          "method": "POST",
+          "templated": true
+      },
+      "viaplay:resetPassword": {
+          "id": "resetPassword",
+          "href": "https://viaplay.mtg-api.com/identity/viaplay/passwords",
+          "method": "PUT"
+      },
+      "viaplay:retrieveUserEmail": {
+          "id": "retrieveUserEmail",
+          "href": "https://viaplay.mtg-api.com/identity/{brand}/reset-pwd-tokens/{+resetPwdToken}/user/email",
+          "method": "GET",
+          "templated": true
+      },
+      "viaplay:universalLinkResolver": {
+          "id": "universalLinkResolver",
+          "href": "https://content.viaplay.se/pc-se/universalLink/{universalLink}",
+          "method": "GET",
+          "templated": true
+      },
+      "viaplay:userExperiments": {
+          "id": "userExperiments",
+          "href": "https://viaplay.mtg-api.com/experiments/users/{userId}",
+          "method": "GET",
+          "templated": true
+      },
+      "viaplay:tracking": {
+          "id": "tracking",
+          "href": "https://cronos-events.mtg-api.com/cronos-events/event/{brand}/pc-se/{clientVersion}/{sequenceNo}/{eventType}{?sessionId}",
+          "method": "POST",
+          "templated": true
+      },
+      "viaplay:categoryFilters": [
+          {
+              "title": "Alla serier",
+              "href": "https://content.viaplay.se/pc-se/serier/samtliga",
+              "templated": false,
+              "tagId": "0",
+              "type": "vod",
+              "active": true
+          },
+          {
+              "title": "Action",
+              "href": "https://content.viaplay.se/pc-se/serier/action",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99879986",
+              "type": "vod"
+          },
+          {
+              "title": "Animation",
+              "href": "https://content.viaplay.se/pc-se/serier/animation",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "22740520196",
+              "type": "vod"
+          },
+          {
+              "title": "Barnserier",
+              "href": "https://content.viaplay.se/pc-se/serier/barnserier",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "0",
+              "type": "vod"
+          },
+          {
+              "title": "Dokumentärserier",
+              "href": "https://content.viaplay.se/pc-se/serier/dokumentarserier",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "127528063",
+              "categoryType": "documentary_series",
+              "type": "vod"
+          },
+          {
+              "title": "Drama",
+              "href": "https://content.viaplay.se/pc-se/serier/drama",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "98856440",
+              "type": "vod"
+          },
+          {
+              "title": "Komedi",
+              "href": "https://content.viaplay.se/pc-se/serier/komedi",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99368193",
+              "type": "vod"
+          },
+          {
+              "title": "Kriminaldrama",
+              "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99368197",
+              "type": "vod"
+          },
+          {
+              "title": "Livsstil",
+              "href": "https://content.viaplay.se/pc-se/serier/livsstil",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99368226",
+              "type": "vod"
+          },
+          {
+              "title": "Matlagning",
+              "href": "https://content.viaplay.se/pc-se/serier/matlagning",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "108071990",
+              "type": "vod"
+          },
+          {
+              "title": "Reality",
+              "href": "https://content.viaplay.se/pc-se/serier/reality",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "108071975",
+              "type": "vod"
+          },
+          {
+              "title": "Science fiction",
+              "href": "https://content.viaplay.se/pc-se/serier/science-fiction",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99368202",
+              "type": "vod"
+          },
+          {
+              "title": "Sportdokumentärer",
+              "href": "https://content.viaplay.se/pc-se/serier/sportdokumentarer",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99368449",
+              "type": "vod"
+          },
+          {
+              "title": "Sportmagasin",
+              "href": "https://content.viaplay.se/pc-se/serier/sportmagasin",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "141466664354",
+              "type": "vod"
+          },
+          {
+              "title": "Thriller",
+              "href": "https://content.viaplay.se/pc-se/serier/thriller",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99368200",
+              "type": "vod"
+          },
+          {
+              "title": "True crime",
+              "href": "https://content.viaplay.se/pc-se/serier/true-crime",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "184914984126",
+              "type": "vod"
+          },
+          {
+              "title": "Underhållning",
+              "href": "https://content.viaplay.se/pc-se/serier/underhallning",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "99879970",
+              "type": "vod"
+          },
+          {
+              "title": "Ungdomsserier",
+              "href": "https://content.viaplay.se/pc-se/serier/ungdomsserier",
+              "group": {
+                  "title": "Kategorier",
+                  "position": 1
+              },
+              "templated": false,
+              "tagId": "100815400432",
+              "type": "vod"
+          },
+          {
+              "title": "ABC Studios",
+              "href": "https://content.viaplay.se/pc-se/serier/abc-studios",
+              "group": {
+                  "title": "Teman",
+                  "position": 2
+              },
+              "templated": false,
+              "tagId": "0",
+              "type": "vod"
+          },
+          {
+              "title": "FOX+",
+              "href": "https://content.viaplay.se/pc-se/serier/fox",
+              "group": {
+                  "title": "Teman",
+                  "position": 2
+              },
+              "templated": false,
+              "tagId": "0",
+              "type": "vod"
+          },
+          {
+              "title": "Internationella serier",
+              "href": "https://content.viaplay.se/pc-se/serier/internationella-serier",
+              "group": {
+                  "title": "Teman",
+                  "position": 2
+              },
+              "templated": false,
+              "tagId": "165662760280",
+              "type": "vod"
+          },
+          {
+              "title": "National Geographic Now",
+              "href": "https://content.viaplay.se/pc-se/serier/national-geographic",
+              "group": {
+                  "title": "Teman",
+                  "position": 2
+              },
+              "templated": false,
+              "tagId": "182932008024",
+              "type": "vod"
+          },
+          {
+              "title": "STARZPLAY",
+              "href": "https://content.viaplay.se/pc-se/serier/starzplay",
+              "group": {
+                  "title": "Teman",
+                  "position": 2
+              },
+              "templated": false,
+              "tagId": "0",
+              "type": "vod"
+          },
+          {
+              "title": "Svenska serier",
+              "href": "https://content.viaplay.se/pc-se/serier/svenska-serier",
+              "group": {
+                  "title": "Teman",
+                  "position": 2
+              },
+              "templated": false,
+              "tagId": "138969640347",
+              "type": "vod"
+          },
+          {
+              "title": "Viaplay Originals",
+              "href": "https://content.viaplay.se/pc-se/serier/viaplay-originals",
+              "group": {
+                  "title": "Teman",
+                  "position": 2
+              },
+              "templated": false,
+              "tagId": "0",
+              "type": "vod"
+          }
+      ],
+      "viaplay:sortings": [
+          {
+              "id": "most_popular",
+              "title": "Populära",
+              "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=most_popular",
+              "active": true
+          },
+          {
+              "id": "recently_added",
+              "title": "Senast tillagda",
+              "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=recently_added"
+          },
+          {
+              "id": "highest_ratings",
+              "title": "Högst betyg",
+              "href": "https://content.viaplay.se/pc-se/serier/samtliga?sort=highest_ratings"
+          }
+      ]
+  },
+  "_embedded": {
+      "viaplay:blocks": [
+          {
+              "ablocator": "6dd481845f73b596b7a95456c2d918e0",
+              "id": "6dd481845f73b596b7a95456c2d918e0",
+              "type": "list",
+              "client": {
+                  "styles": "landscape",
+                  "autoAppend": true,
+                  "module": "collection",
+                  "template": "collection"
+              },
+              "styles": [
+                  "landscape",
+                  "list",
+                  "grid"
+              ],
+              "title": "Alla serier sorterat på Populära",
+              "totalProductCount": 576,
+              "currentPage": 1,
+              "pageCount": 58,
+              "productsPerPage": 10,
+              "_embedded": {
+                  "viaplay:products": [
+                      {
+                          "type": "series",
+                          "publicPath": "max-anger-with-one-eye-open",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/448/564/1620989637-05db9fc5af7a160230b8bc3c18e9b5ae0868277c.jpg?width=199&height=298",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/448/564/1620989637-05db9fc5af7a160230b8bc3c18e9b5ae0868277c.jpg{?width,height}"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/448/564/1620989638-170ca4463978e0cc3cda836926162b1624c51094.jpg?width=960&height=540",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/448/564/1620989638-170ca4463978e0cc3cda836926162b1624c51094.jpg{?width,height}"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/750/436/1622549980-10f99e07c58d0b2aa752a7b79143c4ae5f90a1d2.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/448/564/1620989637-05db9fc5af7a160230b8bc3c18e9b5ae0868277c.jpg{?width,height}"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/448/564/1620989638-170ca4463978e0cc3cda836926162b1624c51094.jpg{?width,height}"
+                                  },
+                                  "coverart11": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/750/436/1622549672-59d1ed10b522e7863816679ed76f675b5adddb38.jpg{?width,height}"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Adam Lundgren",
+                                      "Evin Ahmad",
+                                      "Ieva Andrejevaité",
+                                      "Johan Rheborg",
+                                      "Malin Crépin",
+                                      "Joel Spira",
+                                      "Linus Wahlgren",
+                                      "Per Ragnar",
+                                      "Hannes Fohlin",
+                                      "Annika Hallin",
+                                      "Tina Pour Davoy"
+                                  ],
+                                  "directors": [
+                                      "Lisa Farzaneh",
+                                      "Jesper W. Nielsen"
+                                  ],
+                                  "participants": [
+                                      "Adam Lundgren",
+                                      "Evin Ahmad",
+                                      "Ieva Andrejevaité",
+                                      "Johan Rheborg",
+                                      "Malin Crépin",
+                                      "Joel Spira",
+                                      "Linus Wahlgren",
+                                      "Per Ragnar",
+                                      "Hannes Fohlin",
+                                      "Annika Hallin",
+                                      "Tina Pour Davoy"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "Max Anger - With One Eye Open",
+                                  "synopsis": "Max Anger är den före detta elitsoldaten som hittat kärleken i den ryska kollegan Pashie. När Pashie nu plötsligt försvinner spårlöst i Sankt Petersburg ger sig Max genast iväg för att hitta henne.",
+                                  "season": {
+                                      "title": "Max Anger - With One Eye Open",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-06-05T22:00:00.000Z",
+                                              "end": "2031-06-05T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 1,
+                                  "seriesGuid": "series-max-anger-with-one-eye-open"
+                              },
+                              "synopsis": "Max Anger är den före detta elitsoldaten som hittat kärleken i den ryska kollegan Pashie. När Pashie nu plötsligt försvinner spårlöst i Sankt Petersburg ger sig Max genast iväg för att hitta henne.",
+                              "imdb": {
+                                  "id": "tt8595304",
+                                  "rating": "6.2",
+                                  "votes": "114",
+                                  "url": "http://www.imdb.com/title/tt8595304?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2021
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2021-06-05T22:00:00.000Z",
+                                  "end": "2031-06-05T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2021-06-05T22:00:00.000Z",
+                                      "end": "2031-06-05T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [
+                                  "originals"
+                              ],
+                              "guid": "series-max-anger-with-one-eye-open",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Max Anger - With One Eye Open",
+                                  "href": "https://content.viaplay.se/pc-se/serier/max-anger-with-one-eye-open?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Max Anger - With One Eye Open",
+                                  "href": "https://content.viaplay.se/pc-se/serier/max-anger-with-one-eye-open"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Max Anger - With One Eye Open",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/max-anger-with-one-eye-open"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  },
+                                  {
+                                      "title": "Thriller",
+                                      "tagId": "99368200",
+                                      "href": "https://content.viaplay.se/pc-se/serier/thriller"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "greys-anatomy",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988235-2e6920a94b2b30019f47c286074c93ecdc0407d0.jpg?width=199&height=298&template=abcstudios",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988235-2e6920a94b2b30019f47c286074c93ecdc0407d0.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/440/976/1603974960-2dad0c0eef922590320e519ed36a633af15f49a6.jpg?width=960&height=540&template=abcstudios",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/440/976/1603974960-2dad0c0eef922590320e519ed36a633af15f49a6.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988205-4bc81439d53bcc4a66de4b8c67597cca536d2cc6.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/990/580/1601988235-2e6920a94b2b30019f47c286074c93ecdc0407d0.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/440/976/1603974960-2dad0c0eef922590320e519ed36a633af15f49a6.jpg{?width,height}&template=abcstudios"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Ellen Pompeo",
+                                      "Justin Chambers",
+                                      "Chandra Wilson",
+                                      "James Pickens Jr.",
+                                      "Patrick Dempsey",
+                                      "Kevin McKidd",
+                                      "Jesse Williams",
+                                      "Jessica Capshaw",
+                                      "Sandra Oh",
+                                      "Sarah Drew",
+                                      "Camilla Luddington",
+                                      "Caterina Scorsone",
+                                      "Kelly McCreary",
+                                      "Giacomo Gianniotti",
+                                      "Eric Dane"
+                                  ],
+                                  "participants": [
+                                      "Ellen Pompeo",
+                                      "Justin Chambers",
+                                      "Chandra Wilson",
+                                      "James Pickens Jr.",
+                                      "Patrick Dempsey",
+                                      "Kevin McKidd",
+                                      "Jesse Williams",
+                                      "Jessica Capshaw",
+                                      "Sandra Oh",
+                                      "Sarah Drew",
+                                      "Camilla Luddington",
+                                      "Caterina Scorsone",
+                                      "Kelly McCreary",
+                                      "Giacomo Gianniotti",
+                                      "Eric Dane"
+                                  ]
+                              },
+                              "parentalRating": "12",
+                              "series": {
+                                  "title": "Grey's Anatomy",
+                                  "synopsis": "Flerfaldigt prisbelönad och högt rankad dramaserie. Läkarna på Seattle Grace Hospital hanterar dagligen liv och död medan de finner tröst, vänskap och romantik hos varandra.",
+                                  "season": {
+                                      "title": "Grey's Anatomy",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2020-11-04T23:00:00.000Z",
+                                              "end": "2021-11-04T23:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 16,
+                                  "seriesGuid": "series-greys-anatomy"
+                              },
+                              "synopsis": "Flerfaldigt prisbelönad och högt rankad dramaserie. Läkarna på Seattle Grace Hospital hanterar dagligen liv och död medan de finner tröst, vänskap och romantik hos varandra.",
+                              "imdb": {
+                                  "id": "tt0413573",
+                                  "rating": "7.5",
+                                  "votes": "261 120",
+                                  "url": "http://www.imdb.com/title/tt0413573?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2005
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2020-05-04T22:00:00.000Z",
+                                  "end": "2021-11-04T23:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2020-05-04T22:00:00.000Z",
+                                      "end": "2021-11-04T23:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-greys-anatomy",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Grey's Anatomy",
+                                  "href": "https://content.viaplay.se/pc-se/serier/greys-anatomy?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Grey's Anatomy",
+                                  "href": "https://content.viaplay.se/pc-se/serier/greys-anatomy"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Grey's Anatomy",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/greys-anatomy"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  },
+                                  {
+                                      "title": "Romantik",
+                                      "tagId": "99368206",
+                                      "href": "https://content.viaplay.se/pc-se/store/romantik"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "chicago-fire",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/700/168/1620643272-f2141d124b8d89881cfacd5c41ee89b4453ce80e.jpg?width=199&height=298",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/700/168/1620643272-f2141d124b8d89881cfacd5c41ee89b4453ce80e.jpg{?width,height}"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/702/120/1620643273-42e2a0d0ba2d732f4acdc09128c89224f037bae8.jpg?width=960&height=540",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/702/120/1620643273-42e2a0d0ba2d732f4acdc09128c89224f037bae8.jpg{?width,height}"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/749/688/1622026829-1253d0ff1266b12d14845fa6bba0bbdec73b565d.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/700/168/1620643272-f2141d124b8d89881cfacd5c41ee89b4453ce80e.jpg{?width,height}"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/702/120/1620643273-42e2a0d0ba2d732f4acdc09128c89224f037bae8.jpg{?width,height}"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Jesse Spencer",
+                                      "Taylor Kinney",
+                                      "Yuri Sardarov",
+                                      "Christian Stoltenberg",
+                                      "Eamonn Walker",
+                                      "David Eigenberg",
+                                      "Monica Raymund",
+                                      "Joe Minoso",
+                                      "Christian Stolte",
+                                      "Kara Killmer",
+                                      "Miranda Rae Mayo",
+                                      "Annie Ilonzeh",
+                                      "Alberto Rosende",
+                                      "Dora Madison",
+                                      "Steven R. McQueen",
+                                      "Charlie Barnett",
+                                      "Lauren German",
+                                      "Teri Reeves"
+                                  ],
+                                  "participants": [
+                                      "Jesse Spencer",
+                                      "Taylor Kinney",
+                                      "Yuri Sardarov",
+                                      "Christian Stoltenberg",
+                                      "Eamonn Walker",
+                                      "David Eigenberg",
+                                      "Monica Raymund",
+                                      "Joe Minoso",
+                                      "Christian Stolte",
+                                      "Kara Killmer",
+                                      "Miranda Rae Mayo",
+                                      "Annie Ilonzeh",
+                                      "Alberto Rosende",
+                                      "Dora Madison",
+                                      "Steven R. McQueen",
+                                      "Charlie Barnett",
+                                      "Lauren German",
+                                      "Teri Reeves"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "Chicago Fire",
+                                  "synopsis": "För de modiga brandmännen på Brandstation 51 kommer alltid offrens säkerhet först. Följ dem i deras dagliga kamp fylld av dramatik, spänning och interna stridigheter.",
+                                  "season": {
+                                      "title": "Chicago Fire",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-06-08T22:00:00.000Z",
+                                              "end": "2023-05-31T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 8,
+                                  "seriesGuid": "series-chicago-fire"
+                              },
+                              "synopsis": "För de modiga brandmännen på Brandstation 51 kommer alltid offrens säkerhet först. Följ dem i deras dagliga kamp fylld av dramatik, spänning och interna stridigheter.",
+                              "imdb": {
+                                  "id": "tt2261391",
+                                  "rating": "8.0",
+                                  "votes": "41 152",
+                                  "url": "http://www.imdb.com/title/tt2261391?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2012
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2018-10-26T18:00:00.000Z",
+                                  "end": "2023-05-31T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2018-10-26T18:00:00.000Z",
+                                      "end": "2023-05-31T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-chicago-fire",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Chicago Fire",
+                                  "href": "https://content.viaplay.se/pc-se/serier/chicago-fire?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Chicago Fire",
+                                  "href": "https://content.viaplay.se/pc-se/serier/chicago-fire"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Chicago Fire",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/chicago-fire"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  },
+                                  {
+                                      "title": "Action",
+                                      "tagId": "99879986",
+                                      "href": "https://content.viaplay.se/pc-se/serier/action"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "csi-crime-scene-investigation",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257271-3b3a223e1a0e471d1b8713b4ceb3bb5b3380e3ae.jpg?width=199&height=298",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257271-3b3a223e1a0e471d1b8713b4ceb3bb5b3380e3ae.jpg{?width,height}"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257272-3fd8a391cf8188346ade528b4a8edc8cdc534475.jpg?width=960&height=540",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257272-3fd8a391cf8188346ade528b4a8edc8cdc534475.jpg{?width,height}"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621413974-1909b4eedff4a69b3ac03f9784b1896954a0df11.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257271-3b3a223e1a0e471d1b8713b4ceb3bb5b3380e3ae.jpg{?width,height}"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/832/924/1621257272-3fd8a391cf8188346ade528b4a8edc8cdc534475.jpg{?width,height}"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Ted Danson",
+                                      "Elisabeth Shue",
+                                      "George Eads",
+                                      "Jorja Fox",
+                                      "Eric Szmanda",
+                                      "Robert David Hall",
+                                      "David Berman",
+                                      "Wallace Langham",
+                                      "Elisabeth Harnois",
+                                      "Jon Wellner",
+                                      "Paul Guilfoyle",
+                                      "Marg Helgenberger",
+                                      "Laurence Fishburne",
+                                      "Liz Vassey",
+                                      "Lauren Lee Smith",
+                                      "William Petersen",
+                                      "Gary Dourdan"
+                                  ],
+                                  "participants": [
+                                      "Ted Danson",
+                                      "Elisabeth Shue",
+                                      "George Eads",
+                                      "Jorja Fox",
+                                      "Eric Szmanda",
+                                      "Robert David Hall",
+                                      "David Berman",
+                                      "Wallace Langham",
+                                      "Elisabeth Harnois",
+                                      "Jon Wellner",
+                                      "Paul Guilfoyle",
+                                      "Marg Helgenberger",
+                                      "Laurence Fishburne",
+                                      "Liz Vassey",
+                                      "Lauren Lee Smith",
+                                      "William Petersen",
+                                      "Gary Dourdan"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "CSI: Crime Scene Investigation",
+                                  "synopsis": "Följ ett elitteam av kriminaltekniska utredare när de löser hemska mord på Las Vegas smutsiga, neonspäckade gator.",
+                                  "season": {
+                                      "title": "CSI: Crime Scene Investigation",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-06-01T22:00:00.000Z",
+                                              "end": "2022-11-30T23:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 16,
+                                  "seriesGuid": "series-csi-crime-scene-investigation"
+                              },
+                              "synopsis": "Följ ett elitteam av kriminaltekniska utredare när de löser hemska mord på Las Vegas smutsiga, neonspäckade gator.",
+                              "imdb": {
+                                  "id": "tt0247082",
+                                  "rating": "7.6",
+                                  "votes": "77 963",
+                                  "url": "http://www.imdb.com/title/tt0247082?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2000
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2021-06-01T22:00:00.000Z",
+                                  "end": "2022-11-30T23:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2021-06-01T22:00:00.000Z",
+                                      "end": "2022-11-30T23:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-csi-crime-scene-investigation",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "CSI: Crime Scene Investigation",
+                                  "href": "https://content.viaplay.se/pc-se/serier/csi-crime-scene-investigation?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "CSI: Crime Scene Investigation",
+                                  "href": "https://content.viaplay.se/pc-se/serier/csi-crime-scene-investigation"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "CSI: Crime Scene Investigation",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/csi-crime-scene-investigation"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  },
+                                  {
+                                      "title": "Kriminaldrama",
+                                      "tagId": "99368197",
+                                      "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "thunder-in-my-heart",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/297/796/1620200838-1d306589db1b73908fca4371c696d633e0795410.jpg?width=199&height=298",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/297/796/1620200838-1d306589db1b73908fca4371c696d633e0795410.jpg{?width,height}"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/297/796/1620200839-4faab168868386cb5e211c69852f2f3243de53dc.jpg?width=960&height=540",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/297/796/1620200839-4faab168868386cb5e211c69852f2f3243de53dc.jpg{?width,height}"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/297/796/1618840612-ab147502682cb3de5fdcb05b5eec2d73c73be71b.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/297/796/1620200838-1d306589db1b73908fca4371c696d633e0795410.jpg{?width,height}"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/297/796/1620200839-4faab168868386cb5e211c69852f2f3243de53dc.jpg{?width,height}"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Amy Deasismont",
+                                      "Alexander Abdallah",
+                                      "Julia Lyskova",
+                                      "Max Ulveson",
+                                      "Gustaf Hammarsten",
+                                      "Helen Sjöholm"
+                                  ],
+                                  "directors": [
+                                      "Anders Hazelius",
+                                      "Sanna Lenken",
+                                      "Amy Deasismont"
+                                  ],
+                                  "participants": [
+                                      "Amy Deasismont",
+                                      "Alexander Abdallah",
+                                      "Julia Lyskova",
+                                      "Max Ulveson",
+                                      "Gustaf Hammarsten",
+                                      "Helen Sjöholm"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "Thunder in My Heart",
+                                  "synopsis": "22-åriga Sigrid - kallad Sigge - och hennes grupp vänner tampas med vuxenlivets oväntade krav samtidigt som de försöker förlika sig med sina egna identiteter, sina passioner och det förflutna.",
+                                  "season": {
+                                      "title": "Thunder in My Heart",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-05-22T22:01:00.000Z",
+                                              "end": "2031-05-21T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 1,
+                                  "seriesGuid": "series-thunder-in-my-heart"
+                              },
+                              "synopsis": "22-åriga Sigrid - kallad Sigge - och hennes grupp vänner tampas med vuxenlivets oväntade krav samtidigt som de försöker förlika sig med sina egna identiteter, sina passioner och det förflutna.",
+                              "imdb": {
+                                  "id": "tt13411722",
+                                  "rating": "7.8",
+                                  "votes": "464",
+                                  "url": "http://www.imdb.com/title/tt13411722?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2021
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2021-05-22T22:01:00.000Z",
+                                  "end": "2031-05-21T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2021-05-22T22:01:00.000Z",
+                                      "end": "2031-05-21T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [
+                                  "originals"
+                              ],
+                              "guid": "series-thunder-in-my-heart",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Thunder in My Heart",
+                                  "href": "https://content.viaplay.se/pc-se/serier/thunder-in-my-heart?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Thunder in My Heart",
+                                  "href": "https://content.viaplay.se/pc-se/serier/thunder-in-my-heart"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Thunder in My Heart",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/thunder-in-my-heart"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  },
+                                  {
+                                      "title": "Komedi",
+                                      "tagId": "99368193",
+                                      "href": "https://content.viaplay.se/pc-se/serier/komedi"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              },
+                              "viaplay:trailerStream": {
+                                  "href": "https://play.viaplay.se/api/trailer/byguid{?deviceId,deviceName,deviceType,userAgent,deviceKey,availabilityContext,cmaf,cse}&guid=10-5240-A460-574D-A9A1-D6B0-8A58-5&returnurl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fserier%2Fsamtliga&producturl=https%3A%2F%2Fcontent.viaplay.se%2Fpc-se%2Fbyguid%2F10-5240-A460-574D-A9A1-D6B0-8A58-5%3FparentProgramGuid%3Dseries-thunder-in-my-heart&templatedproducturl=https%3A%2F%2Fcontent.viaplay.se%2F%7BdeviceKey%7D%2Fbyguid%2F10-5240-A460-574D-A9A1-D6B0-8A58-5%3FparentProgramGuid%3Dseries-thunder-in-my-heart&sectionPath=%2Fserier&defaultAvailabilityContext=svod",
+                                  "templated": true
+                              },
+                              "viaplay:trailerSelf": {
+                                  "title": "Thunder in My Heart",
+                                  "href": "https://content.viaplay.se/pc-se/byguid/10-5240-A460-574D-A9A1-D6B0-8A58-5?parentProgramGuid=series-thunder-in-my-heart&partial=true"
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "chicago-med",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/128/124/1620643898-67cdfbab55ba52472778f9277076fb8575abf539.jpg?width=199&height=298",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/128/124/1620643898-67cdfbab55ba52472778f9277076fb8575abf539.jpg{?width,height}"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/128/124/1620643900-8fe9a11df44ff0231d0f20c30dffd026fce80e07.jpg?width=960&height=540",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/128/124/1620643900-8fe9a11df44ff0231d0f20c30dffd026fce80e07.jpg{?width,height}"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/128/124/1620644126-373ccb3041c34e54b62df6ca08301e7d9bfa5a20.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/128/124/1620643898-67cdfbab55ba52472778f9277076fb8575abf539.jpg{?width,height}"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/128/124/1620643900-8fe9a11df44ff0231d0f20c30dffd026fce80e07.jpg{?width,height}"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Nick Gehlfuss",
+                                      "Yaya DaCosta",
+                                      "Torrey DeVitto",
+                                      "Brian Tee",
+                                      "S. Epatha Merkerson",
+                                      "S. Epatha Merkerson",
+                                      "Marlyne Barrett",
+                                      "Oliver Platt",
+                                      "Colin Donnell",
+                                      "Ashland Thomas",
+                                      "Rachel DiPillo",
+                                      "Dominic Rains",
+                                      "Norma Kuhling"
+                                  ],
+                                  "participants": [
+                                      "Nick Gehlfuss",
+                                      "Yaya DaCosta",
+                                      "Torrey DeVitto",
+                                      "Brian Tee",
+                                      "S. Epatha Merkerson",
+                                      "S. Epatha Merkerson",
+                                      "Marlyne Barrett",
+                                      "Oliver Platt",
+                                      "Colin Donnell",
+                                      "Ashland Thomas",
+                                      "Rachel DiPillo",
+                                      "Dominic Rains",
+                                      "Norma Kuhling"
+                                  ]
+                              },
+                              "parentalRating": "12",
+                              "series": {
+                                  "title": "Chicago Med",
+                                  "synopsis": "Få en känsloladdad inblick i det dagliga arbetet på det pulserande sjukhuset i Chicago. Här tampas den modiga och heroiska personalen med svåra fall, relationen till patienterna och till varandra.",
+                                  "season": {
+                                      "title": "Chicago Med",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-06-08T22:00:00.000Z",
+                                              "end": "2023-05-31T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 5,
+                                  "seriesGuid": "series-chicago-med"
+                              },
+                              "synopsis": "Få en känsloladdad inblick i det dagliga arbetet på det pulserande sjukhuset i Chicago. Här tampas den modiga och heroiska personalen med svåra fall, relationen till patienterna och till varandra.",
+                              "imdb": {
+                                  "id": "tt4655480",
+                                  "rating": "7.6",
+                                  "votes": "16 748",
+                                  "url": "http://www.imdb.com/title/tt4655480?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2015
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2018-10-31T23:00:00.000Z",
+                                  "end": "2023-05-31T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2018-10-31T23:00:00.000Z",
+                                      "end": "2023-05-31T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-chicago-med",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Chicago Med",
+                                  "href": "https://content.viaplay.se/pc-se/serier/chicago-med?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Chicago Med",
+                                  "href": "https://content.viaplay.se/pc-se/serier/chicago-med"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Chicago Med",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/chicago-med"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "chicago-p.d.",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/84/680/1620643073-8bc8c8d3c3f6f56f980187e21cd0714003b5bcd5.jpg?width=199&height=298",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/84/680/1620643073-8bc8c8d3c3f6f56f980187e21cd0714003b5bcd5.jpg{?width,height}"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/84/680/1620643075-7210391e3a6760a5daf7bbfe0694cc9d6be50cee.jpg?width=960&height=540",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/84/680/1620643075-7210391e3a6760a5daf7bbfe0694cc9d6be50cee.jpg{?width,height}"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/750/164/1622034662-9e8beadc1c898bfc558acd35971f6437978feecb.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/84/680/1620643073-8bc8c8d3c3f6f56f980187e21cd0714003b5bcd5.jpg{?width,height}"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/84/680/1620643075-7210391e3a6760a5daf7bbfe0694cc9d6be50cee.jpg{?width,height}"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Jason Beghe",
+                                      "Patrick Flueger",
+                                      "Jesse Lee Soffer",
+                                      "LaRoyce Hawkins",
+                                      "Patrick John Flueger",
+                                      "Amy Morton",
+                                      "Jesse Lee Soffer",
+                                      "Tracy Spiridakos",
+                                      "Marina Squerciati",
+                                      "Lisseth Chavez",
+                                      "Jon Seda",
+                                      "Elias Koteas",
+                                      "Sophia Bush",
+                                      "Brian Geraghty",
+                                      "Archie Kao"
+                                  ],
+                                  "participants": [
+                                      "Jason Beghe",
+                                      "Patrick Flueger",
+                                      "Jesse Lee Soffer",
+                                      "LaRoyce Hawkins",
+                                      "Patrick John Flueger",
+                                      "Amy Morton",
+                                      "Jesse Lee Soffer",
+                                      "Tracy Spiridakos",
+                                      "Marina Squerciati",
+                                      "Lisseth Chavez",
+                                      "Jon Seda",
+                                      "Elias Koteas",
+                                      "Sophia Bush",
+                                      "Brian Geraghty",
+                                      "Archie Kao"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "Chicago P.D.",
+                                  "synopsis": "Polisen vid det 21:e distriktet i Chicago sätter sina liv på spel för att tjäna samhället. Arbetet innebär förpliktelser och konsekvenser som sträcker sig långt bortom arbetsplatsens fyra väggar.",
+                                  "season": {
+                                      "title": "Chicago P.D.",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-06-08T22:00:00.000Z",
+                                              "end": "2023-05-31T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 7,
+                                  "seriesGuid": "series-chicago-p.d."
+                              },
+                              "synopsis": "Polisen vid det 21:e distriktet i Chicago sätter sina liv på spel för att tjäna samhället. Arbetet innebär förpliktelser och konsekvenser som sträcker sig långt bortom arbetsplatsens fyra väggar.",
+                              "imdb": {
+                                  "id": "tt2805096",
+                                  "rating": "8.1",
+                                  "votes": "29 829",
+                                  "url": "http://www.imdb.com/title/tt2805096?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2013
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2018-10-30T19:00:00.000Z",
+                                  "end": "2023-05-31T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2018-10-30T19:00:00.000Z",
+                                      "end": "2023-05-31T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-chicago-p.d.",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Chicago P.D.",
+                                  "href": "https://content.viaplay.se/pc-se/serier/chicago-p.d.?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Chicago P.D.",
+                                  "href": "https://content.viaplay.se/pc-se/serier/chicago-p.d."
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Chicago P.D.",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/chicago-p.d."
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  },
+                                  {
+                                      "title": "Kriminaldrama",
+                                      "tagId": "99368197",
+                                      "href": "https://content.viaplay.se/pc-se/serier/kriminaldrama"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "criminal-minds",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/131/416/1607951084-e322e101f99438fae4d1c237fab4871e6fbd41be.jpg?width=199&height=298&template=abcstudios",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/131/416/1607951084-e322e101f99438fae4d1c237fab4871e6fbd41be.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/131/416/1607951086-56fdf11815be93d7cf60d1b4293e1f57c1ab62e8.jpg?width=960&height=540&template=abcstudios",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/131/416/1607951086-56fdf11815be93d7cf60d1b4293e1f57c1ab62e8.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/131/416/1608127543-dd5e5d4c2bc750f841cf970c418e47e807d19df5.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/131/416/1607951084-e322e101f99438fae4d1c237fab4871e6fbd41be.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/131/416/1607951086-56fdf11815be93d7cf60d1b4293e1f57c1ab62e8.jpg{?width,height}&template=abcstudios"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Matthew Gray Gubler",
+                                      "Matthew Gray Gubler",
+                                      "Kirsten Vangsness",
+                                      "A.J. Cook",
+                                      "Joe Mantegna",
+                                      "Thomas Gibson",
+                                      "Shemar Moore",
+                                      "Paget Brewster",
+                                      "Aisha Tyler",
+                                      "Adam Rodriguez",
+                                      "Daniel Henney",
+                                      "Damon Gupton",
+                                      "Mandy Patinkin",
+                                      "Lola Glaudini",
+                                      "Jennifer Love Hewitt",
+                                      "Jeanne Tripplehorn",
+                                      "Rachel Nichols"
+                                  ],
+                                  "participants": [
+                                      "Matthew Gray Gubler",
+                                      "Matthew Gray Gubler",
+                                      "Kirsten Vangsness",
+                                      "A.J. Cook",
+                                      "Joe Mantegna",
+                                      "Thomas Gibson",
+                                      "Shemar Moore",
+                                      "Paget Brewster",
+                                      "Aisha Tyler",
+                                      "Adam Rodriguez",
+                                      "Daniel Henney",
+                                      "Damon Gupton",
+                                      "Mandy Patinkin",
+                                      "Lola Glaudini",
+                                      "Jennifer Love Hewitt",
+                                      "Jeanne Tripplehorn",
+                                      "Rachel Nichols"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "Criminal Minds",
+                                  "synopsis": "FBI:s elitteam, the Behavioral Analysis Unit, utreder USA:s farligaste kriminella hjärnor och försöker förutse gärningsmännens nästa drag – och stoppa dem innan de hinner slå till igen.",
+                                  "season": {
+                                      "title": "Criminal Minds",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-01-10T23:00:00.000Z",
+                                              "end": "2021-07-10T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 15,
+                                  "seriesGuid": "series-criminal-minds"
+                              },
+                              "synopsis": "FBI:s elitteam, the Behavioral Analysis Unit, utreder USA:s farligaste kriminella hjärnor och försöker förutse gärningsmännens nästa drag – och stoppa dem innan de hinner slå till igen.",
+                              "imdb": {
+                                  "id": "tt0452046",
+                                  "rating": "8.0",
+                                  "votes": "167 699",
+                                  "url": "http://www.imdb.com/title/tt0452046?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2005
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2021-01-10T23:00:00.000Z",
+                                  "end": "2021-07-10T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2021-01-10T23:00:00.000Z",
+                                      "end": "2021-07-10T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-criminal-minds",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Criminal Minds",
+                                  "href": "https://content.viaplay.se/pc-se/serier/criminal-minds?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Criminal Minds",
+                                  "href": "https://content.viaplay.se/pc-se/serier/criminal-minds"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Criminal Minds",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/criminal-minds"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "desperate-housewives",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/311/644/1554207310-524727d1ed0c5dd3a2a16306d145bba880bb2cb9.jpg?width=199&height=298&template=abcstudios",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/311/644/1554207310-524727d1ed0c5dd3a2a16306d145bba880bb2cb9.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/311/644/1554207312-5117bf6edeec712bafa4eb0aed0e5399d33c59ac.jpg?width=960&height=540&template=abcstudios",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/311/644/1554207312-5117bf6edeec712bafa4eb0aed0e5399d33c59ac.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/271/676/Desperate-Housewives-(hero).jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/311/644/1554207310-524727d1ed0c5dd3a2a16306d145bba880bb2cb9.jpg{?width,height}&template=abcstudios"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/311/644/1554207312-5117bf6edeec712bafa4eb0aed0e5399d33c59ac.jpg{?width,height}&template=abcstudios"
+                                  }
+                              },
+                              "people": {
+                                  "actors": [
+                                      "Teri Hatcher",
+                                      "Marcia Cross",
+                                      "Felicity Huffman",
+                                      "Eva Longoria",
+                                      "Nicollette Sheridan"
+                                  ],
+                                  "participants": [
+                                      "Teri Hatcher",
+                                      "Marcia Cross",
+                                      "Felicity Huffman",
+                                      "Eva Longoria",
+                                      "Nicollette Sheridan"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "Desperate Housewives",
+                                  "synopsis": "En grannes självmord blir startskottet för en lång rad djupa hemligheter och mystiska intriger för vännerna och grannarna på Wisteria Lane.",
+                                  "season": {
+                                      "title": "Desperate Housewives",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2021-02-28T23:00:00.000Z",
+                                              "end": "2021-08-31T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 8,
+                                  "seriesGuid": "series-desperate-housewives"
+                              },
+                              "synopsis": "En grannes självmord blir startskottet för en lång rad djupa hemligheter och mystiska intriger för vännerna och grannarna på Wisteria Lane.",
+                              "imdb": {
+                                  "id": "tt0410975",
+                                  "rating": "7.5",
+                                  "votes": "118 537",
+                                  "url": "http://www.imdb.com/title/tt0410975?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2004
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2021-02-28T23:00:00.000Z",
+                                  "end": "2021-08-31T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2021-02-28T23:00:00.000Z",
+                                      "end": "2021-08-31T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-desperate-housewives",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "Desperate Housewives",
+                                  "href": "https://content.viaplay.se/pc-se/serier/desperate-housewives?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "Desperate Housewives",
+                                  "href": "https://content.viaplay.se/pc-se/serier/desperate-housewives"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "Desperate Housewives",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/desperate-housewives"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      },
+                      {
+                          "type": "series",
+                          "publicPath": "vampire-diaries-the",
+                          "content": {
+                              "images": {
+                                  "boxart": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/986/456/1542721791-7f9b125fad38acee5b2cb7622bba4e5299627b5e.jpg?width=199&height=298",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/986/456/1542721791-7f9b125fad38acee5b2cb7622bba4e5299627b5e.jpg{?width,height}"
+                                  },
+                                  "landscape": {
+                                      "url": "https://i-viaplay-com.akamaized.net/viaplay-prod/444/784/TheVampireDiaries8_Packshot.jpg?width=960&height=540",
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/444/784/TheVampireDiaries8_Packshot.jpg{?width,height}"
+                                  },
+                                  "hero169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/444/784/TheVampireDiaries8_Hero.jpg{?width,height}"
+                                  },
+                                  "coverart23": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/986/456/1542721791-7f9b125fad38acee5b2cb7622bba4e5299627b5e.jpg{?width,height}"
+                                  },
+                                  "coverart169": {
+                                      "template": "https://i-viaplay-com.akamaized.net/viaplay-prod/444/784/TheVampireDiaries8_Packshot.jpg{?width,height}"
+                                  }
+                              },
+                              "originalTitle": "Vampire Diaries, The",
+                              "people": {
+                                  "actors": [
+                                      "Paul Wesley",
+                                      "Ian Somerhalder",
+                                      "Kat Graham",
+                                      "Candice King",
+                                      "Candice King",
+                                      "Zach Roerig",
+                                      "Michael Trevino",
+                                      "Nina Dobrev",
+                                      "Steven R. McQueen",
+                                      "Matthew Davis",
+                                      "Michael Malarkey",
+                                      "Joseph Morgan",
+                                      "Sara Canning",
+                                      "Kayla Ewell"
+                                  ],
+                                  "participants": [
+                                      "Paul Wesley",
+                                      "Ian Somerhalder",
+                                      "Kat Graham",
+                                      "Candice King",
+                                      "Candice King",
+                                      "Zach Roerig",
+                                      "Michael Trevino",
+                                      "Nina Dobrev",
+                                      "Steven R. McQueen",
+                                      "Matthew Davis",
+                                      "Michael Malarkey",
+                                      "Joseph Morgan",
+                                      "Sara Canning",
+                                      "Kayla Ewell"
+                                  ]
+                              },
+                              "parentalRating": "15",
+                              "series": {
+                                  "title": "The Vampire Diaries",
+                                  "synopsis": "Två vampyrbröder, en ond och en god, återvänder till hemstaden Mystic Falls. Där förälskar de sig i samma tjej, Elena. Kampen är ett faktum och nu är det upp till Elena – vem ska hon välja?",
+                                  "season": {
+                                      "title": "The Vampire Diaries",
+                                      "availability": {
+                                          "svod": {
+                                              "start": "2019-12-01T23:00:00.000Z",
+                                              "end": "2021-07-31T22:00:00.000Z"
+                                          }
+                                      }
+                                  },
+                                  "seasons": 8,
+                                  "seriesGuid": "series-vampire-diaries-the"
+                              },
+                              "synopsis": "Två vampyrbröder, en ond och en god, återvänder till hemstaden Mystic Falls. Där förälskar de sig i samma tjej, Elena. Kampen är ett faktum och nu är det upp till Elena – vem ska hon välja?",
+                              "imdb": {
+                                  "id": "tt1405406",
+                                  "rating": "7.7",
+                                  "votes": "290 360",
+                                  "url": "http://www.imdb.com/title/tt1405406?ref_ext_viaplay"
+                              },
+                              "production": {
+                                  "year": 2009
+                              }
+                          },
+                          "user": {
+                              "starred": false
+                          },
+                          "system": {
+                              "availability": {
+                                  "start": "2018-11-30T23:00:00.000Z",
+                                  "end": "2021-07-31T22:00:00.000Z",
+                                  "planInfo": {
+                                      "isRental": false,
+                                      "isPurchase": false
+                                  },
+                                  "svod": {
+                                      "start": "2018-11-30T23:00:00.000Z",
+                                      "end": "2021-07-31T22:00:00.000Z",
+                                      "planInfo": {
+                                          "isRental": false,
+                                          "isPurchase": false
+                                      }
+                                  }
+                              },
+                              "flags": [],
+                              "guid": "series-vampire-diaries-the",
+                              "isKids": false
+                          },
+                          "_links": {
+                              "self": {
+                                  "title": "The Vampire Diaries",
+                                  "href": "https://content.viaplay.se/pc-se/serier/vampire-diaries-the?partial=true"
+                              },
+                              "viaplay:page": {
+                                  "title": "The Vampire Diaries",
+                                  "href": "https://content.viaplay.se/pc-se/serier/vampire-diaries-the"
+                              },
+                              "viaplay:templatedPage": {
+                                  "title": "The Vampire Diaries",
+                                  "href": "https://content.viaplay.se/{deviceKey}/serier/vampire-diaries-the"
+                              },
+                              "viaplay:genres": [
+                                  {
+                                      "title": "Drama",
+                                      "tagId": "98856440",
+                                      "href": "https://content.viaplay.se/pc-se/serier/drama"
+                                  },
+                                  {
+                                      "title": "Thriller",
+                                      "tagId": "99368200",
+                                      "href": "https://content.viaplay.se/pc-se/serier/thriller"
+                                  }
+                              ],
+                              "viaplay:peopleSearch": {
+                                  "href": "https://content.viaplay.se/pc-se/search?query=\"{person}\"",
+                                  "templated": true
+                              }
+                          },
+                          "notice": {
+                              "message": "User must login to view content",
+                              "code": 1002,
+                              "_links": {
+                                  "curies": [
+                                      {
+                                          "name": "viaplay",
+                                          "href": "http://docs.viaplay.tv/rel/{rel}",
+                                          "templated": true
+                                      }
+                                  ],
+                                  "viaplay:accountPurchasePackage": {
+                                      "href": "/package?recommended=viaplay",
+                                      "templated": false,
+                                      "redirect": false
+                                  }
+                              }
+                          }
+                      }
+                  ]
+              },
+              "_links": {
+                  "self": {
+                      "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=1"
+                  },
+                  "next": {
+                      "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=2{&productsPerPage}",
+                      "templated": true
+                  },
+                  "first": {
+                      "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=1"
+                  },
+                  "last": {
+                      "href": "https://content.viaplay.se/pc-se/serier/samtliga?blockId=6dd481845f73b596b7a95456c2d918e0&partial=1&pageNumber=58"
+                  }
+              }
+          }
+      ]
+  },
+  "responseCode": {
+      "httpStatus": 200,
+      "statusCode": 200,
+      "code": 1
+  }
+}
