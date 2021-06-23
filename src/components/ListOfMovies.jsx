@@ -1,25 +1,46 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React, {  useState } from 'react'
+import axios from "axios";
+import ReactDOM from "react-dom";
+// import { fetchSeries } from '../modules/viaplayService'
 const ListOfMovies = () => {
-  const [movies, setMovies] = useState([]);
+  const [series, setSeries] = useState([])
+  const [error, setError] = useState(false)
+  const apiURL = 'https://content.viaplay.se/pc-se/serier/samtliga'
+  const fetchData = async () => {
+    const response = await axios.get(apiURL);
+    setSeries(response.data._embedded['viaplay:blocks'][0]._embedded['viaplay:products']);
+  };
 
-  useEffect(async () => {
-    const result = await axios(
-      'https://content.viaplay.se/pc-se/serier/samtliga'
-    );
-    setMovies(result.data);
-  }, []);
+  // useEffect(() => {
+  //   fetchSeries(setSeries, setError)
+  // }, [])
+
+  const listOfSeries = series.map((serie, index) => {
+    return (
+      <div data-cy='serie-card' className='display-show' key={index}>
+        <img src={serie.content.images.landscape.url} alt={serie.publicPath} />
+      </div>
+    )
+  })
 
   return (
-    <div>
-      <h1 data-cy='list-of-movies'>List of Movies</h1>
-      <div>
-        {movies.map((movie, index) => (
-          <li key={index}>{movie.title}</li>
-        ))}
+    <div className='container'>
+    <button className="fetch-button" onClick={() => fetchData()}>
+    Fetch Data
+  </button>
+      <div className='block'>
+        <img
+          data-cy='logo'
+          className='logo'
+          alt='viaplay-logo'
+          src='https://kundservice.viaplay.se/wp-content/themes/viaplaycs/assets/dist/images/viaplay_white.svg'
+        />
       </div>
-    </div>
-  );
-};
+      <div className='series-container'>
+          {listOfSeries}
+      </div>
 
+    </div>
+  )
+}
 export default ListOfMovies;
