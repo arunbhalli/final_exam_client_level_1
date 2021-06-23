@@ -27,3 +27,13 @@ code {
   width: 100%;
   height: auto;
 }
+.fetch-button {
+  margin-top: 10px;
+  width: 50%;
+  font-size: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-left: 25%;
+  background-color:rgb(201, 158, 236);
+}
