@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "start:silent": "BROWSER=none react-scripts start",
     "cy:open": "cypress open",
-    "cypress": "start-server-and-test start:silent http://localhost:3001/ cy:open"
+    "cypress": "start-server-and-test start:silent http://localhost:3000/ cy:open"
   },
   "eslintConfig": {
     "extends": [
