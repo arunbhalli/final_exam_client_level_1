@@ -12,6 +12,7 @@ const ListOfMovies = () => {
     );
   };
 
+  // This code if we use modules 
   // useEffect(() => {
   //   fetchSeries(setSeries, setError)
   // }, [])
